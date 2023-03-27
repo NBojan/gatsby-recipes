@@ -1,0 +1,103 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@400;700&display=swap'); */
+
+
+:root {
+  --clr-primary-1: hsl(205, 86%, 17%);
+  --clr-primary-2: hsl(205, 77%, 27%);
+  --clr-primary-3: hsl(205, 72%, 37%);
+  --clr-primary-4: hsl(205, 63%, 48%);
+  --clr-primary-5: hsl(205, 78%, 60%);
+  --clr-primary-6: hsl(205, 89%, 70%);
+  --clr-primary-7: hsl(205, 90%, 76%);
+  --clr-primary-8: hsl(205, 86%, 81%);
+  --clr-primary-9: hsl(205, 90%, 88%);
+  --clr-primary-10: hsl(205, 100%, 96%);
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-2: hsl(211, 39%, 23%);
+  --clr-grey-3: hsl(209, 34%, 30%);
+  --clr-grey-4: hsl(209, 28%, 39%);
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+  --clr-mainBack: #f1f5f8;
+  --clr-mainBack2: #f8f9fa;
+  --clr-darkmode1: #181818;
+  --clr-darkmode2: #282c35;
+  --clr-dark1: #15202B;
+  --clr-dark2: #192734;
+  --clr-dark3: #343a40;
+  --clr-warning: #ffc107;
+  --clr-info: #17a2b8;
+  --clr-gold: #c59d5f;
+  --clr-blue: #007bff;
+  --clr-red: #dc3545;
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --clr-green: #28a745;
+  --clr-green-dark: hsl(125, 67%, 44%);
+  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-black: #222;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --headingFont: "Quicksand";
+  --bodyFont: "Montserrat";
+}
+.primary-variations {
+  --clr-primary-50: #eff6ff;
+  --clr-primary-1: #dbeafe;
+  --clr-primary-2: #bfdbfe;
+  --clr-primary-3: #93c5fd;
+  --clr-primary-4: #60a5fa;
+  --clr-primary-5: #3b82f6;
+  --clr-primary-6: #2563eb;
+  --clr-primary-7: #1d4ed8;
+  --clr-primary-8: #1e40af;
+  --clr-primary-9: #1e3a8a;
+}
+/**/
+body {
+  line-height: 1.5;
+  color: var(--clr-black);
+  background-color: var(--clr-mainBack2);
+  font-family: var(--bodyFont);
+}
+h1,h2,h3,h4,h5 {
+  color: var(--clr-grey-1);
+  font-family: var(--headingFont);
+  text-transform: capitalize;
+}
+.page {
+  min-height: calc(100vh - (6rem + 4rem));
+}
+
+.btn-prim {
+	color: #fff;
+	background-color: var(--clr-primary-5);
+}
+.btn-prim:hover {
+	background-color: var(--clr-primary-3)
+}
+
+@media (min-width: 1400px){
+
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+
+}
+@media (min-width: 992px){
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+@media (max-width: 767px){
+
+}
+@media (max-width: 575px){
+
+}
