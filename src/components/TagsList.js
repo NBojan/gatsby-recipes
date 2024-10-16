@@ -15,7 +15,7 @@ const TagsList = ({ recipes=[] }) => {
                 {newTags.map((tag,index) => {
                     const [text, value] = tag;
                     const slug = slugify(text,{lower: true});
-                    return <Link to={`/tags/${slug}`} className="tag" key={index}>{text} ({value})</Link>
+                    return <Link to={`/tags/${slug}`} className="tag" key={index}>{text} <span className="tag-value">({value})</span></Link>
                 })}
             </div>
         </Wrapper>

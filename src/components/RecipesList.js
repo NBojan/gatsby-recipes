@@ -16,7 +16,11 @@ const RecipesList = ({ recipes=[] }) => {
                         <GatsbyImage image={pathToImg} alt={title} className="card-img" />
                         <div className="card-info">
                             <h4>{title}</h4>
-                            <p>Prep : {prepTime}min | Cook : {cookTime}min</p>
+                            <p>
+                                <span className="prep-time">Prep : {prepTime}min </span>
+                                |
+                                <span className="cook-time"> Cook : {cookTime}min</span>
+                            </p>
                         </div>
                     </Link>
                 )
